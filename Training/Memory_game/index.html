@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Rye&display=swap" rel="stylesheet">
+        <title>Memory Card Game</title>
+</head>
+
+<body>
+        <div class="star_bg">
+                <div id="stars"></div>
+                <div id="stars2"></div>
+                <div id="stars3"></div>
+        </div>
+        <nav>
+                <h1>MEMORY GAMES
+                </h1>
+        </nav>
+        <div class="loader-wrapper">
+                <span class="loader">
+                        <span class="loader-inner">
+                        </span>
+                </span>
+        </div>
+
+        <section class="memory-game">
+                <div class="memory-card">
+                        <img class="front-face" src="images/ace.jpg">
+                        <img class="back-face" src="images/back.jpg">
+                </div>
+                <div class="memory-card">
+                        <img class="front-face" src="images/ace.jpg">
+                        <img class="back-face" src="images/back.jpg">
+                </div>
+                <div class="memory-card">
+                        <img class="front-face" src="images/dart.jpg">
+                        <img class="back-face" src="images/back.jpg">
+                </div>
+                <div class="memory-card">
+                        <img class="front-face" src="images/dart.jpg">
+                        <img class="back-face" src="images/back.jpg">
+                </div>
+                <div class="memory-card">
+                        <img class="front-face" src="images/dice.jpg">
+                        <img class="back-face" src="images/back.jpg">
+                </div>
+                <div class="memory-card">
+                        <img class="front-face" src="images/dice.jpg">
+                        <img class="back-face" src="images/back.jpg">
+                </div>
+                <div class="memory-card">
+                        <img class="front-face" src="images/golf.jpg">
+                        <img class="back-face" src="images/back.jpg">
+                </div>
+                <div class="memory-card">
+                        <img class="front-face" src="images/golf.jpg">
+                        <img class="back-face" src="images/back.jpg">
+                </div>
+                <div class="memory-card">
+                        <img class="front-face" src="images/king.jpg">
+                        <img class="back-face" src="images/back.jpg">
+                </div>
+                <div class="memory-card">
+                        <img class="front-face" src="images/king.jpg">
+                        <img class="back-face" src="images/back.jpg">
+                </div>
+                <div class="memory-card">
+                        <img class="front-face" src="images/mario.jpg">
+                        <img class="back-face" src="images/back.jpg">
+                </div>
+                <div class="memory-card">
+                        <img class="front-face" src="images/mario.jpg">
+                        <img class="back-face" src="images/back.jpg">
+                </div>
+        </section>
+        <script>
+                $(window).on("load", function () {
+                        $(".loader-wrapper").fadeOut(4000);
+                });
+        </script>
+
+        <script>
+                $(window).on("load", function () {
+                        $(".container").fadeIn(4000);
+                });
+        </script>
+        <script src="script.js"></script>
+</body>
+
+</html>

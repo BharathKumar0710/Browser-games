@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Rye&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="stye.css" />
+    <script src="script.js"></script>
+    <title>Tic Tac Toe</title>
+</head>
+
+<body>
+    <div class="star_bg">
+        <div id="stars"></div>
+        <div id="stars2"></div>
+        <div id="stars3"></div>
+    </div>
+    <nav>
+        <h1> TIC TAC TOE
+        </h1>
+    </nav>
+    <div class="loader-wrapper">
+        <span class="loader">
+            <span class="loader-inner">
+            </span>
+        </span>
+    </div>
+
+    <div class="text-center" id="box">
+
+        <div id="message"></div>
+        <ul id="gameBoard">
+            <li class="tic" id="0">#</li>
+            <li class="tic" id="1">#</li>
+            <li class="tic" id="2">#</li>
+            <li class="tic" id="3">#</li>
+            <li class="tic" id="4">#</li>
+            <li class="tic" id="5">#</li>
+            <li class="tic" id="6">#</li>
+            <li class="tic" id="7">#</li>
+            <li class="tic" id="8">#</li>
+        </ul>
+        <div class="clearfix"></div>
+        <footer>
+            <button id="reset">Reset</button>
+        </footer>
+    </div>
+    <link rel="stylesheet" href="script.js">
+
+    <script>
+        $(window).on("load", function () {
+            $(".loader-wrapper").fadeOut(4000);
+        });
+    </script>
+
+    <script>
+        $(window).on("load", function () {
+            $(".container").fadeIn(4000);
+        });
+    </script>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Rye&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="animate.css">
+  <link rel="stylesheet" href="style.css" />
+  <title>Browser Games</title>
+</head>
+
+<body class="full">
+
+  <audio src="audio.mp3" autoplay preload="auto"></audio>
+
+  <div class="star_bg">
+    <div id="stars"></div>
+    <div id="stars2"></div>
+    <div id="stars3"></div>
+  </div>
+
+
+  <nav>
+    <h1> Browser Games
+    </h1>
+  </nav>
+
+  <div class="loader-wrapper">
+    <span class="loader">
+      <span class="loader-inner">
+      </span>
+    </span>
+  </div>
+
+
+  <div class="container">
+
+    <div class="box animated fadeInLeft">
+      <img src="TicTacToe\1.png" alt="">
+      <div class="box-content">
+        <a href="TicTacToe\index.html" target="_blank">
+          <button class="btn">
+            <h3>Launch Game</h3>
+          </button>
+        </a>
+      </div>
+      </img>
+    </div>
+
+
+    <div class="box animated fadeInDown">
+      <img src="Snake\snake.png" alt="">
+      <div class="box-content">
+        <a href="Snake\index.html" target="_blank">
+          <button class="btn">
+            <h3>Launch Game
+            </h3>
+          </button>
+        </a>
+      </div>
+      </img>
+    </div>
+
+
+    <div class="box animated fadeInRight">
+      <img src="Memory_game\2.png" alt="">
+      <div class="box-content">
+        <a href="Memory_game\index.html" target="_blank">
+          <button class="btn">
+            <h3>Launch Game
+            </h3>
+          </button>
+        </a>
+        </img>
+      </div>
+    </div>
+
+  </div>
+  
+  <script>
+    $(window).on("load", function () {
+      $(".loader-wrapper").fadeOut(4000);
+    });
+    $(window).on("load", function () {
+      $(".container, .box, .fadeInRight, .fadeInLeft, .fadeInDown").fadeIn(4000);
+    });
+  </script>
+
+
+<script src="script.js"></script>
+</body>
+
+</html>
